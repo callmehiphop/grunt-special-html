@@ -1,6 +1,6 @@
 {
   "name": "grunt-special-html",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Converts special UTF-8 characters in a string to their HTML escape code equivalents.",
   "homepage": "https://github.com/callmehiphop/grunt-special-html",
   "repository": "http://github.com/callmehiphop/grunt-special-html.git",
