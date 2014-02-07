@@ -22,10 +22,12 @@ grunt.loadNpmTasks('grunt-special-html');
 ```js
 grunt.initConfig({
   'special-html': {
-    files: {
-      'dist/index.html': 'app/index.html',
-    },
-  },
+    compile: {
+      files: {
+        'dist/index.html': 'app/index.html',
+      }
+    }
+  }
 })
 ```
 
