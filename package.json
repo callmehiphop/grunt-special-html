@@ -1,0 +1,38 @@
+{
+  "name": "grunt-special-html",
+  "version": "0.0.1",
+  "description": "Converts special UTF-8 characters in a string to their HTML escape code equivalents.",
+  "homepage": "https://github.com/callmehiphop/grunt-special-html",
+  "repository": "http://github.com/callmehiphop/grunt-special-html.git",
+  "bugs": "http://github.com/callmehiphop/grunt-special-html.gitissues",
+  "author": {
+    "name": "David Gramlich",
+    "email": "callmehiphop@gmail.com",
+    "url": "http://github.com/callmehiphop"
+  },
+  "keywords": [
+    "gruntplugin"
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "devDependencies": {
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt-contrib-jshint": "~0.2.0",
+    "grunt-contrib-nodeunit": "~0.1.2",
+    "grunt": "~0.4.0rc2",
+    "jshint-stylish": "~0.1.3",
+    "load-grunt-tasks": "~0.2.0",
+    "special-html": "~0.0.1",
+    "each-async": "~0.1.2"
+  },
+  "scripts": {
+    "test": "grunt test"
+  }
+}
